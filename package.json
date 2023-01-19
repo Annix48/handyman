@@ -1,10 +1,12 @@
 {
   "name": "handyman",
+  "source": "src/index.html",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -16,8 +18,11 @@
   "bugs": {
     "url": "https://github.com/Annix48/handyman/issues"
   },
-  "homepage": "https://github.com/Annix48/handyman#readme",
+  "homepage": "https://annix48.github.io/handyman/",
   "devDependencies": {
     "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "sass": "^1.57.1"
   }
 }

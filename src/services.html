@@ -6,54 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Services</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./sass/main.css" />
 </head>
 
 <body>
-    <header>
-        <div>
-            <nav>
-                <a class="logo" href="index.html" aria-label="Page Logo">
-                    <img src="./img/logo3.png" alt="HandyManLogo" width="170px" height="80px" />
-                </a>
-            </nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a>Request Services</a></li>
-                <li><a>Gallery</a></li>
-                <li><a>Contacts</a></li>
-            </ul>
-            <ul>
-                <li><a>info@mail.com</a></li>
-                <li><a>+380 96 777 09 08</a></li>
-            </ul>
-        </div>
-    </header>
+<header class="header">
+    <div class="container header__section">
+        <nav class="header__nav">
+            <a class="header__logo logo link" href="index.html" aria-label="Page Logo">
+                <img src="./img/logo3.png" alt="HandyManLogo" >
+            </a>
+        </nav>
+        <ul class="nav list">
+            <li class="nav__item"><a class="nav__link link" href="index.html">Home</a></li>
+            <li class="nav__item"><a class="nav__link link" href="services.html">Services</a></li>
+            <li class="nav__item"><a class="nav__link link">Request Services</a></li>
+            <li class="nav__item"><a class="nav__link link">Gallery</a></li>
+            <li class="nav__item"><a class="nav__link link">Contacts</a></li>
+        </ul>
+        <ul class="header-contact header-contack__list list">
+            <li class="header-contact__item"><a class="header-contact__link link">info@mail.com</a></li>
+            <li class="header-contact__item"><a class="header-contact__link link">+380 96 777 09 08</a></li>
+        </ul>
+    </div>
+</header>
     <main>
         <section>
-            <h1>Services</h1>
+            <h1>
+                <svg class="header-contact__icon" width="16" height="12">
+                    <use href="./img/sprite.svg#icon-tool1"></use>
+                </svg>Services</h1>
 
             <ul>
-                <h2>Home Improvement</h2>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
+                <h2>HOME RENOVATION</h2>
+                <li><svg class="header-contact__icon" width="16" height="12">
+                    <use href="./img/sprite.svg#icon-tool2"></use>
+                </svg>BASIC CARPENTRY</li>
+                <li><svg class="header-contact__icon" width="16" height="12">
+                    <use href="./img/sprite.svg#icon-tool2"></use>
+                </svg>CEILING REPAIR</li>
+                <li><svg class="header-contact__icon" width="16" height="12">
+                    <use href="./img/sprite.svg#icon-tool2"></use>
+                </svg>CERAMIC TILE REPAIR</li>
+                <li><svg class="header-contact__icon" width="16" height="12">
+                    <use href="./img/sprite.svg#icon-tool2"></use>
+                </svg>DRYWALL REPAIR</li>
+                <li><svg class="header-contact__icon" width="16" height="12">
+                    <use href="./img/sprite.svg#icon-tool2"></use>
+                </svg>FLOOR REPAIR & INSTALLATION</li>
+                <li><svg class="header-contact__icon" width="16" height="12">
+                    <use href="./img/sprite.svg#icon-tool2"></use>
+                </svg>FRAMING</li>
 
-                <h2>Home Improvement</h2>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
+                <h2>General Household</h2>
+                <li>CURTAIN HANGING</li>
+                <li>DOOR REPAIR</li>
+                <li>DOOR INSTALLATION</li>
+                <li>WASHER & DRYER INSTALLATION</li>
+                <li>FAN INSTALLATION</li>
+                <li>FENCE FIXING</li>
+                <li>GARAGE DOORS</li>
+                <li>GENERAL MAINTENANCE</li>
+                <li>LIGHT FIXTURES</li>
 
-                <h2>Home Improvement</h2>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
-                <li>BASIC CARPENTRY</li>
+                <h2>BATHROOM REMODELING</h2>
+                <li>CABINET REFACING</li>
+                <li>COUNTERTOPS</li>
+                <li>TILE INSTALLATION</li>
+                <li>GROUTING</li>
             </ul>
         </section>
     </main>
