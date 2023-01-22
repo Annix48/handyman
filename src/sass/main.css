@@ -591,7 +591,7 @@ textarea:focus {
   font-size: 34px;
   line-height: 1.18;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #f8c008;
 }
 
 .mob-menu-list__mail {
@@ -611,25 +611,6 @@ textarea:focus {
   flex-direction: row;
   -moz-column-gap: 20px;
        column-gap: 20px;
-}
-
-.mob-menu-list__social-item {
-  position: relative;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.22;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-}
-.mob-menu-list__social-item:not(:first-child)::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: -10px;
-  width: 1px;
-  height: 22px;
-  background-color: rgba(33, 33, 33, 0.2);
 }
 
 .mob-menu.is-hidden {
@@ -652,6 +633,26 @@ textarea:focus {
   padding-bottom: 0px;
 }
 @media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/src/img/worker2.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/src/img/worker2.jpg");
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/src/img/worker2.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/src/img/worker2.jpg");
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/src/img/worker2.jpg");
   }
@@ -1144,34 +1145,35 @@ textarea:focus {
   width: 24px;
   height: 20px;
   margin-left: 10px;
+  background-image: url(/src/img/send.svg);
 }
 
-.work {
+.gallery {
   padding-bottom: 94px;
   display: none;
 }
 @media screen and (min-width: 1200px) {
-  .work {
+  .gallery {
     display: block;
   }
 }
 
-.work__title {
+.gallery__title {
   margin-bottom: 50px;
 }
 
-.work-list {
+.gallery-list {
   display: flex;
   justify-content: center;
   align-items: center;
   grid-gap: 30px;
 }
 
-.work-list__item {
+.gallery-list__item {
   position: relative;
 }
 
-.work-list__text {
+.gallery-list__text {
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -1326,4 +1328,80 @@ textarea:focus {
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
+}
+
+.contacts-contacts {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--hero-background-color);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/src/img/worker3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  padding-top: 118px;
+  padding-bottom: 0px;
+}
+@media screen and (min-device-pixel-ratio: 2), screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .contacts-contacts {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/src/img/worker3.jpg");
+  }
+}
+@media screen and (min-width: 768px) {
+  .contacts-contacts {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/src/img/worker3.jpg");
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .contacts-contacts {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/src/img/worker3.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts-contacts {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/src/img/worker3.jpg");
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .contacts-contacts {
+    background-image: linear-gradient(to right, rgba(56, 58, 47, 0.4), rgba(56, 58, 47, 0.4)), url("/src/img/worker3.jpg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts-contacts {
+    max-width: 1600px;
+    height: 600px;
+    padding-top: 200px;
+  }
+}
+
+.contacts__title {
+  padding: 0;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 250px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgb(255, 187, 0);
+}
+@media screen and (min-width: 480px) {
+  .contacts__title {
+    font-size: 26px;
+    max-width: 360px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__title {
+    font-size: 44px;
+    max-width: 360px;
+    line-height: 1.36;
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }/*# sourceMappingURL=main.css.map */

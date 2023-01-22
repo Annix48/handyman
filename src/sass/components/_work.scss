@@ -1,4 +1,4 @@
-.work {
+.gallery {
   padding-bottom: 94px;
   display: none;
 
@@ -7,22 +7,22 @@
   }
 }
 
-.work__title {
+.gallery__title {
   margin-bottom: 50px;
 }
 
-.work-list {
+.gallery-list {
   display: flex;
   justify-content: center;
   align-items: center;
   grid-gap: 30px;
 }
 
-.work-list__item {
+.gallery-list__item {
   position: relative;
 }
 
-.work-list__text {
+.gallery-list__text {
   width: 100%;
   position: absolute;
   bottom: 0;
