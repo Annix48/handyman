@@ -1,4 +1,4 @@
-.portfolio-section {
+.services-section {
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -13,7 +13,7 @@
   }
 }
 
-.portfolio-btn-list {
+.services-btn-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -33,16 +33,16 @@
   }
 }
 
-.portfolio-item:hover .portfolio-overlay {
+.services-item:hover .services-overlay {
   transform: translateY(0);
 }
 
-.portfolio-description {
+.services-description {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-overlay {
+.services-overlay {
   position: absolute;
 
   display: inline-block;
@@ -58,7 +58,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-description-text {
+.services-description-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -71,7 +71,7 @@
   color: var(--white-text-color);
 }
 
-.portfolio-btn {
+.services-btn {
   display: inline-block;
   min-width: 73px;
   border-radius: 4px;
@@ -101,7 +101,7 @@
   }
 }
 
-.portfolio-list {
+.services-list {
   display: grid;
   grid-template-columns: auto;
   gap: 30px 30px;
@@ -120,7 +120,7 @@
   }
 }
 
-.portfolio-item {
+.services-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
@@ -130,13 +130,13 @@
   }
 }
 
-.portfolio-border {
+.services-border {
   border: 1px solid #eeeeee;
   border-top: transparent;
   padding: 20px 24px;
 }
 
-.portfolio-list-title {
+.services-list-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -144,7 +144,7 @@
   text-transform: uppercase;
 }
 
-.portfolio-list-text {
+.services-list-text {
   margin-top: 4px;
 
   font-size: 16px;

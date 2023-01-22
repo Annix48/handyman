@@ -1186,24 +1186,24 @@ textarea:focus {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.portfolio-section {
+.services-section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 @media screen and (min-width: 1200px) {
-  .portfolio-section {
+  .services-section {
     padding-top: 94px;
     padding-bottom: 94px;
   }
 }
 @media screen and (max-width: 479px) {
-  .portfolio-section {
+  .services-section {
     padding-left: 15px;
     padding-right: 15px;
   }
 }
 
-.portfolio-btn-list {
+.services-btn-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -1212,27 +1212,27 @@ textarea:focus {
   grid-row-gap: 15px;
 }
 @media (min-width: 768px) {
-  .portfolio-btn-list {
+  .services-btn-list {
     justify-content: center;
     margin-bottom: 30px;
   }
 }
 @media (min-width: 1200px) {
-  .portfolio-btn-list {
+  .services-btn-list {
     margin-bottom: 50px;
   }
 }
 
-.portfolio-item:hover .portfolio-overlay {
+.services-item:hover .services-overlay {
   transform: translateY(0);
 }
 
-.portfolio-description {
+.services-description {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-overlay {
+.services-overlay {
   position: absolute;
   display: inline-block;
   content: "";
@@ -1245,7 +1245,7 @@ textarea:focus {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-description-text {
+.services-description-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -1255,7 +1255,7 @@ textarea:focus {
   color: var(--white-text-color);
 }
 
-.portfolio-btn {
+.services-btn {
   display: inline-block;
   min-width: 73px;
   border-radius: 4px;
@@ -1272,48 +1272,48 @@ textarea:focus {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-btn:hover, .portfolio-btn:focus {
+.services-btn:hover, .services-btn:focus {
   background-color: var(--accent-color);
   color: var(--white-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-list {
+.services-list {
   display: grid;
   grid-template-columns: auto;
   gap: 30px 30px;
   align-items: stretch;
 }
 @media screen and (min-width: 480px) {
-  .portfolio-list {
+  .services-list {
     grid-template-columns: auto;
   }
 }
 @media screen and (min-width: 768px) {
-  .portfolio-list {
+  .services-list {
     grid-template-columns: auto auto;
   }
 }
 @media screen and (min-width: 1200px) {
-  .portfolio-list {
+  .services-list {
     grid-template-columns: auto auto auto;
   }
 }
 
-.portfolio-item {
+.services-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-item:hover, .portfolio-item:focus {
+.services-item:hover, .services-item:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-border {
+.services-border {
   border: 1px solid #eeeeee;
   border-top: transparent;
   padding: 20px 24px;
 }
 
-.portfolio-list-title {
+.services-list-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -1321,7 +1321,7 @@ textarea:focus {
   text-transform: uppercase;
 }
 
-.portfolio-list-text {
+.services-list-text {
   margin-top: 4px;
   font-size: 16px;
   line-height: 1.87;
