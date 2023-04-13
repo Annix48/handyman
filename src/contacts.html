@@ -1,144 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HandyMan</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="icon" type="image/x-icon" href="./img/logo3.png" />
     <link rel="stylesheet" href="./sass/main.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="container header__section">
-            <nav class="header__nav">
-                <a class="header__logo logo link" href="./index.html">Handy<span
-                        class="header__logo--black">Man</span></a>
-                <ul class="nav list">
-                    <li class="nav__item">
-                        <a class="nav__link link " href="./index.html">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link link" href="./services.html">Services</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link link nav__link--current" href="./contacts.html">Contact Us</a>
-                    </li>
-                    <li class="nav__item">
-                        <a class="nav__link link" href="">Gallery</a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="header-contact header-contack__list list">
-                <li class="header-contact__item">
-                    <a class="header-contact__link link" href="mailto:info@devstudio.com"><svg
-                            class="header-contact__icon" width="16" height="12">
-                            <use href="./img/icons.svg#icon-mail"></use>
-                        </svg>
-                        info@devstudio.com</a>
-                </li>
-                <li class="header-contact__item">
-                    <a class="header-contact__link link" href="tel:+380961111111"><svg class="header-contact__icon"
-                            width="10" height="16">
-                            <use href="./img/icons.svg#icon-mobile"></use>
-                        </svg>
-                        +38 096 111 11 11</a>
-                </li>
-            </ul>
-         
-        </div>
+      <div class="container header__section">
+        <nav class="header__nav">
+          <a class="header__logo logo link" href="./index.html"
+            >Handy<span class="header__logo--black">Man</span></a
+          >
+          <ul class="nav list">
+            <li class="nav__item">
+              <a class="nav__link link" href="./index.html">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="./services.html">Services</a>
+            </li>
+            <li class="nav__item">
+              <a
+                class="nav__link link nav__link--current"
+                href="./contacts.html"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Gallery</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact header-contack__list list">
+          <li class="header-contact__item">
+            <a
+              class="header-contact__link link"
+              href="mailto:info@devstudio.com"
+              ><svg class="header-contact__icon" width="16" height="12">
+                <use href="./img/icons.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="header-contact__item">
+            <a class="header-contact__link link" href="tel:+380961111111"
+              ><svg class="header-contact__icon" width="10" height="16">
+                <use href="./img/icons.svg#icon-mobile"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
-        <section class="contacts-contacts">
-            <h1 class="contacts__title">Contact Us</h1>
-        </section>
-        
+      <section class="contacts-intro">
+        <h1 class="contacts__title">Contact Us</h1>
+      </section>
+      <!-- <section class="form-contacts">
+        <form>
+          <span class="contacts-form-title">Contact Ohio Handyman Today</span>
+          <p class="contacts-info">
+            We want to hear from you! If you have an inquiry, please fill out
+            the form below, give us a call or shoot us an email. We’ll get back
+            to you within 1 business day to see how we can make life easier.
+          </p>
+          <div class="contacts-form-field top-title">
+            <label class="contacts-form-label" for="name">Name</label>
+            <input
+              class="contacts-form-input"
+              type="text"
+              name="name"
+              id="name"
+            />
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="tel">Phone</label>
+            <input class="form-input" type="tel" name="tel" id="tel" />
+          </div>
+          <div class="contacts-form-field">
+            <label class="contacts-form-label" for="email">E-mail</label>
+            <input
+              class="contacts-form-input"
+              type="email"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div class="contacts-form-field">
+            <label class="contacts-form-label" for="address">Address</label>
+            <input
+              class="contacts-form-input"
+              type="text"
+              name="address"
+              id="address"
+            />
+          </div>
+          <div class="contacts-form-field">
+            <label class="contacts-form-label" for="city">City</label>
+            <input
+              class="contacts-form-input"
+              type="text"
+              name="city"
+              id="city"
+            />
+          </div>
+          <div class="contacts-form-field">
+            <label class="contacts-form-label" for="zip"
+              >ZIP / Postal Code</label
+            >
+            <input
+              class="contacts-form-input"
+              type="text"
+              name="zip"
+              id="zip"
+            />
+          </div>
+          <div class="contacts-form-field">
+            <label class="contacts-comment-label" for="comment"
+              >Description of Service Requested</label
+            >
+            <textarea
+              class="comment"
+              name="comment"
+              id="comment"
+              rows="9"
+              placeholder="Leave comments"
+            ></textarea>
+          </div>
+          <div class="contacts-form-field-chek"></div>
+          <button class="form-btn" type="submit">Submit</button>
+        </form>
+      </section> -->
+
+      <section class="price" id="price">
+        <div class="container">
+          <h2 class="sub-title">Contact Ohio Handyman Today</h2>
+          <div class="price-text">
+            We want to hear from you! If you have an inquiry, please fill out
+            the form below, give us a call or shoot us an email. We’ll get back
+            to you within 1 business day to see how we can make life easier.
+          </div>
+          <form action="#" class="price-form">
+            <input type="text" class="price-input" placeholder="Name" />
+            <input type="text" class="price-input" placeholder="Phone" />
+            <input type="text" class="price-input" placeholder="E-mail" />
+            <label class="contacts-comment-label" for="comment"
+              >Description of Service Requested</label
+            >
+            <textarea
+              class="comment"
+              name="comment"
+              id="comment"
+              rows="9"
+              placeholder="Leave comments"
+            ></textarea>
+            <div class="contacts-form-field-chek"></div>
+            <button class="form-btn" type="submit">Submit</button>
+          </form>
+          <img src="./img/contactus.webp" alt="rolls" class="price-img" />
+        </div>
+      </section>
+      <button class="scroll-btn" type="button" id="scroll-up" hidden>
+        <img class="scroll-img" alt="arrow-up" src="img/arrow.png" />
+      </button>
     </main>
     <footer class="footer">
-        <div class="container">
-            <div class="footer__flex">
-    
-                <div class="footer__contacts-flex">
-                    <a class="footer__logo logo link" href="./index.html">Handy<span class="footer__logo--white">Man</span>
-                    </a>
-                    <address class="footer-contact">
-                        <ul class="footer-contact__list list">
-                            <li class="footer-contact__item">
-                                <a class=" footer-contact__address link" href="https://goo.gl/maps/HYNpSGYczY8Nq2Ah9"
-                                    target="_blank" rel="noreferrer noopener">8564 W Pico Blvd, CA, US</a>
-                            </li>
-                            <li class="footer-contact__item">
-                                <a class="footer-contact__link link" href="mailto:info@devstudio.com">info@example.com</a>
-                            </li>
-                            <li class="footer-contact__item">
-                                <a class="footer-contact__link link" href="tel:+380961111111">+38 096 111 11 11</a>
-                            </li>
-                        </ul>
-                    </address>
-                </div>
-                <div class="social-section">
-                    <p class="social-section__text">Join</p>
-                    <ul class="footer-list list">
-                        <li class="footer-list__item">
-                            <a class="footer-list__link" href="">
-                                <svg class="footer-list__icon" width="20" height="20">
-                                        <use href="./img/icons.svg#icon-instagram"></use>
-                                    </svg>
-                            </a>
-                        </li>
-    
-                        <li class="footer-list__item">
-                            <a class="footer-list__link" href="">
-                                <svg class="footer-list__icon" width="20" height="20">
-                                        <use href="./img/icons.svg#icon-twitter"></use>
-                                    </svg>
-                            </a>
-                        </li>
-    
-                        <li class="footer-list__item">
-                            <a class="footer-list__link" href="">
-                                <svg class="footer-list__icon" width="20" height="20">
-                                        <use href="./img/icons.svg#icon-facebook"></use>
-                                    </svg>
-                            </a>
-                        </li>
-    
-                        <li class="footer-list__item">
-                            <a class="footer-list__link" href="">
-                                <svg class="footer-list__icon" width="20" height="20">
-                                        <use href="./img/icons.svg#icon-linkedin"></use>
-                                    </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-submit">
-                    <p class="footer-submit__text">SUBSCRIBE TO THE NEWSLETTER</p>
-                    <div class="footer-submit__form">
-                        <label class="footer-submit__label" for="submit-mail"></label>
-                        <input class="footer-submit__input" type="email" name="submit-mail" id="submit-mail"
-                            placeholder="E-mail">
-                        <button class="footer-submit__btn" type="submit">SUBSCRIBE</button>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="footer__flex">
+          <div class="footer__contacts-flex">
+            <a class="footer__logo logo link" href="./index.html"
+              >Handy<span class="footer__logo--white">Man</span>
+            </a>
+            <address class="footer-contact">
+              <ul class="footer-contact__list list">
+                <li class="footer-contact__item">
+                  <a
+                    class="footer-contact__address link"
+                    href="https://goo.gl/maps/HYNpSGYczY8Nq2Ah9"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >8564 W Pico Blvd, CA, US</a
+                  >
+                </li>
+                <li class="footer-contact__item">
+                  <a
+                    class="footer-contact__link link"
+                    href="mailto:info@devstudio.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="footer-contact__item">
+                  <a class="footer-contact__link link" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="social-section">
+            <p class="social-section__text">Join</p>
+            <ul class="footer-list list">
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="">
+                  <svg class="footer-list__icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="">
+                  <svg class="footer-list__icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="">
+                  <svg class="footer-list__icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="">
+                  <svg class="footer-list__icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-submit">
+            <p class="footer-submit__text">Hours of Operation</p>
+            <address class="footer-contact">
+              <ul class="footer-contact__list list">
+                <li class="footer-contact__item">7:00 am – 7:00 pm</li>
+                <li class="footer-contact__item">Monday – Saturday</li>
+              </ul>
+            </address>
+          </div>
         </div>
+      </div>
     </footer>
 
-   
-    </div>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
-</body>
-
+  </body>
 </html>
