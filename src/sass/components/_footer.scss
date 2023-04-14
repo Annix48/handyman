@@ -34,7 +34,15 @@
 
 .footer-contact {
   margin-top: 20px;
+  color: var(--white-text-color);
   justify-content: space-between;
+  font-style: normal;
+  font-size: 14px;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-contact__address {
@@ -162,7 +170,7 @@
   line-height: 1.14px;
   text-transform: uppercase;
 
-  color: var(--white-text-color);
+  color: var(--accent-color);
 }
 
 .footer-submit__input {
